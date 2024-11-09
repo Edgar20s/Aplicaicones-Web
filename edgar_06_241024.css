@@ -1,0 +1,80 @@
+/* menus horizontales y verticales */
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.MenuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.MenuH a:hover{
+    background-color: white;
+    color: black;
+}
+
+.MenuV a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.MenuV a:hover{
+    background-color: white;
+    color: black;
+}
+
+.MenuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+.MenuH{
+    overflow: hidden;
+    border: 5px double;
+}
+
+img{
+    float: center;
+    width: 60%;
+    border-radius: 0%;
+}
+
+.MenuFlex{
+    background-color: aqua;
+    margin: 10px;
+    width: 100%;
+    border: 10px;
+    margin: auto;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+}
+
+.MenuFlex a{    
+    color:black;
+    text-decoration: none;
+    display: inline;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.MenuFlex a:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}

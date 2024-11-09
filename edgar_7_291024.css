@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.ComponentesdeComputadora {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ComponentesdeComputadora> li {
+    background-image: url('IMG/Calle-Real.jpg');
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.CursodeProgramación {
+    padding: 0;
+}
+
+.CursodeProgramación > li {
+    margin-bottom: 10px;
+}
+
+.course-index ol[type="a"] {
+    list-style-type: lower-alpha;
+    margin-top: 5px;
+}
+
+
+dl {
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+.img{
+    float: inline-start;
+    align-content: center;
+    width: 5px;
+    height: 10px;
+}

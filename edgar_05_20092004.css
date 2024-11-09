@@ -1,0 +1,61 @@
+/*
+    edgar delgadillo 
+    2024
+*/
+
+body{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+div{    
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cajanegra{
+    
+    background-color: gray;
+    clear: both;
+    width: 100%;
+
+}
+
+.cajaazul2{
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+}
+
+.cajaamarilla{
+    background-color: yellow;
+    border-radius: 50%;
+    float: right;
+}
+.cajaroja{
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+}
+
+.cajaverde{
+    background-color: green;
+    float: left;
+    width: 100%;
+
+}
+
+.cajaazul{
+    background-color: blue;
+    border-radius: 50%;
+    float: right;
+}

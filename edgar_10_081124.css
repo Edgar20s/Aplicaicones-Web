@@ -1,0 +1,30 @@
+/* css de video y audio */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+    border: 3px solid green;
+    background-color: greenyellow;
+    border-radius: 30px;
+    width: 33%;
+    margin: 6rem auto;
+}
+
+video{
+    width: 30%;
+}
+
+iframe{
+    width: 23rem;
+    height: 16rem;
+}
+
+audio{
+    margin: 2rem auto;
+}

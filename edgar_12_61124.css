@@ -1,0 +1,107 @@
+html {
+   font-size: 62.5%;
+}
+h2{
+   text-align: center;
+   color: red;
+   font-size: 2rem;
+}
+div{
+   margin: auto;
+   display: flex;
+}
+
+.box {
+   width: 20rem;
+   height: 10rem; 
+   margin: auto; 
+   padding: 2rem;
+   color: #fff;
+   font-size: 1.6rem;
+   text-align: center;
+}
+
+.cajasombra{
+   background-color: #3498db;
+   box-shadow: 0.5rem 0.5rem 1.5rem rgb(0, 0, 0);
+}
+
+.cajasombra2{
+   background-color: #2ecc71;
+   box-shadow: -0.5rem 0.5rem 1.5rem rgb(0, 0, 0);
+}
+
+.textoSombra{
+   text-align: center;
+   font-size: 3.6rem;
+   color: #34495e;
+   text-shadow: 2px 2px 2rem rgb(0, 0, 0);
+}
+
+.textoSombra2{
+   font-size: 3rem;
+   text-align: center;
+   color: #e74c3c;
+   text-shadow: 3px 3px 2rem rgb(0, 0, 0);
+}
+
+.degradadoLineal{
+   width: 20rem;
+   height: 10rem;
+   background: linear-gradient(45deg, #1abc9c, #3498db);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.6rem;
+}
+
+.degradadoLineal2{
+   width: 20rem;
+   height: 10rem;
+   background: linear-gradient(90deg, #0000ff, #f1c40f);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.6rem;
+}
+
+.degradadoRadial{
+   width: 20rem;
+   height: 10rem;
+   background: radial-gradient(circle, #ff0202, #d5ff02);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.6rem;
+}
+
+.degradadoRadial2{
+   width: 20rem;
+   height: 10rem;
+   background: radial-gradient(circle, #00ffe1, #ff9500);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.6rem;
+}
+
+.Muebles{
+   background-image: linear-gradient(to right, transparent 50%,#037bc0 50%, #037bc0 100%), url(IMG/muebles.png);
+   background-size: 100%, 100rem; 
+   padding: 8rem 0;
+   background-repeat: no-repeat;
+   background-position: left center;
+   margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.Muebles h2{
+   grid-column: 2/3;
+   text-align: center;
+   color: white;
+}
+

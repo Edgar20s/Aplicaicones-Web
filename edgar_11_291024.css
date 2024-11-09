@@ -1,0 +1,36 @@
+/* hoja de estilos para las funtes de texto
+    Edgar Delgadillo 
+*/
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+body{
+    background-color: aqua;
+}
+
+section{
+    display: flex;
+}
+
+h2{
+    padding: 20px;
+}
+
+.s1{
+    font-family: "Ribeye Marrow", serif;
+}
+
+.s2{
+    font-family: "Princess Sofia", serif;
+}
+
+.s3{
+    font-family: "Meow Script", serif;
+}
+
+.s4{
+    font-family: "Just Me Again Down Here", serif;
+}
